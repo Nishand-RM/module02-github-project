@@ -1,0 +1,94 @@
+.box{
+        background-color: lightgray;
+        padding-bottom:30px;       
+}
+
+.heading{
+    color: white;
+    background-color:rgb(77, 76, 76);
+    height: 100px;
+}
+
+h2{
+    
+    position: relative;
+    bottom: 25px;
+    left: 50%;
+}
+
+icon{
+    position: relative;
+    top: 20px;
+    left:10px
+}
+
+.search{
+    color: gray;
+    background-color:#424549;
+    border-radius: 15px;
+    width: 45%;
+    height: 50px;
+    position: relative;
+    top: 35px;
+    left: 45%;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    position: absolute;
+    left: 47%;
+    bottom: 25%;
+
+    width: 45%;
+    height: 35%;
+    border: 1px solid lightgray;
+}
+
+.flex-box div {
+    width: 30%;
+    height: 50%;
+}
+
+
+
+.bigbox{
+    background-color:#424549;
+    border-radius: 20px;
+    width: 22% ;
+    height: 590px;
+    border: 1px solid #424549;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+}
+
+
+
+.lastbox{
+    background-color: #424549;
+    border-radius: 20px;
+    width:60%;
+    height: 150px;
+   /* display: flex;
+    margin: -10% 0% 0% 37% ;*/
+    position: absolute;
+    bottom: -20px;
+    left: 37%;
+
+
+}
+
+@media screen and(max-width:900px){
+    .box,.heading,.search,.bigbox,.flex-box,.lastbox{
+            width: 100%;
+    }
+}
+
+
+
+
+
